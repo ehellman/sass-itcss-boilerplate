@@ -1,0 +1,13 @@
+///
+/// ANCHOR
+/// <a>
+///============================================================================
+///
+a {
+  color: $color-brand;
+  text-decoration: none;
+  @include on-event {
+    color: $color-text;
+    text-decoration: underline;
+  }
+}

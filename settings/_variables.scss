@@ -1,0 +1,7 @@
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $path-base: 'http://cdn.example.com/assets/';
+$path-base: '/assets/' !default;
+$path-font: '../font/';
+$path-Image: '../image/';

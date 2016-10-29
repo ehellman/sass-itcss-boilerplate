@@ -1,0 +1,18 @@
+// Z-indexes
+$layout: header, content, sidebar, popup;
+
+.header {
+  z-index: zindex($layout, header); // returns 1
+}
+
+.content {
+  z-index: zindex($layout, content); // returns 2
+}
+
+.sidebar {
+  z-index: zindex($layout, sidebar); // returns 3
+}
+
+.popup {
+  z-index: zindex($layout, popup); // returns 4
+}

@@ -1,0 +1,30 @@
+///
+/// Typography
+/// This partial contains all your far-reaching typography styles.
+/// Global classes for headings and copy.
+///============================================================================
+/// Heading Classes
+///----------------------------------------------------------------------------
+/// Heading classes is mostly use to make non-heading elements look like heading
+/// elements. They are also used to make one type of heading look like another.
+///
+.heading {
+  &.h1 {
+
+  }
+}
+///
+/// Copy classes
+///----------------------------------------------------------------------------
+.copy {
+  font-family: $font-stack-text;
+  &.c1 {
+
+  }
+  &.c2 {
+
+  }
+  &.c3 {
+
+  }
+}

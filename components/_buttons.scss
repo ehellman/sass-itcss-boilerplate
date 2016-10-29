@@ -1,0 +1,9 @@
+///
+/// Button
+///
+.button {
+
+  @include on-event {}
+  &.next {}
+  &.previous {}
+}

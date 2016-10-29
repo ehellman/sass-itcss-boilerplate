@@ -1,0 +1,36 @@
+///
+/// CODE
+/// <code>
+///============================================================================
+/// Pre Wrap
+///----------------------------------------------------------------------------
+/// Use the <pre> tag to wrap your code in as a block. Alter this to your needs.
+/// Also, Use an explicit font stack to ensure browsers render correct
+/// `line-height`.
+pre {
+    overflow: auto;
+    // + padding
+    // + background color
+
+    &:mark {
+        background: none;
+        border-bottom: 1px solid;
+        color: inherit;
+    }
+}
+///
+/// Base styles for Code
+code {
+
+}
+
+///
+/// Code Comments
+///----------------------------------------------------------------------------
+/// Apply inside your code to highlight comments
+///  <code>&lt;/div&gt;<span class=code-comment>&lt;!-- /wrapper --&gt;</span></code>
+///
+.code-comment {
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}

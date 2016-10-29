@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+// 1. Settings
+@import
+  'settings/colors',
+  'settings/font',
+  'settings/responsive',
+  'settings/variables',
+  'settings/z-index';
+
+// 2. Tools
+@import
+  'tools/functions',
+  'tools/mixins';
+
+// 3. Generic
+@import
+  'generic/normalize',
+  'generic/base',
+  'generic/typography';
+
+// 4. Elements
+@import
+  'elements/blockquote',
+  'elements/button',
+  'elements/code',
+  'elements/form',
+  'elements/headings',
+  'elements/icons',
+  'elements/images',
+  'elements/links',
+  'elements/lists',
+  'elements/paragraphs',
+  'elements/small',
+  'elements/tables';
+
+// 5. Objects
+@import
+  'objects/container';
+
+// 6. Components
+@import
+  'components/buttons';
+
+// 7. Trumps
+@import
+  'trumps/index';
